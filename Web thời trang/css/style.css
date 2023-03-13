@@ -156,7 +156,7 @@ header{
     bottom: -10px;
     margin-left: -8px;
     transition: .3s;
-    transform: scale(0.1);
+    transform: scale(0);
 }
 
 .home-header-menu .home-header-left .header-main-menu>li:hover>a::before{
@@ -380,7 +380,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     height: 30px;
 }
 
-/* kết thức footer */
+/* kết thúc footer */
 
 /* phần content */
 /*- banner */
