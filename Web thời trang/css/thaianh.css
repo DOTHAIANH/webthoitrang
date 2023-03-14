@@ -22,6 +22,11 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     margin-top: 3px;
 }
 
+.social-icon i {
+    font-size: 44px;
+    color: #333f48;
+}
+
 @media (max-width: 1200px) {
     .home-header-menu .home-header-left .header-main-menu>li>a {
         font-size: 13px;
@@ -70,5 +75,17 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
 @media (max-width:768px) {
     .home-product-featured .slick-dots {
         right: 0;
+    }
+    .social-icon {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .container-fluid {
+        padding: 25px;
+    }
+    .slide-promotion-item {
+        font-size: 12px;
     }
 }
