@@ -63,26 +63,25 @@ $(document).ready(function() {
     prevArrow:"<button type='button' class='slick-prev pull-left slick-arrow'><i class='fa-solid fa-angle-left'></i></button>",
     nextArrow:"<button type='button' class='slick-next pull-right slick-arrow'><i class='fa-solid fa-angle-right'></i></button>"
   });
-
   // chi tiet san pham
-  // $('.detail-product-slide-left').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   arrows: false,
-  //   fade: true,
-  //   asNavFor: '.detail-product-slide-right',
-  // });
+  $('.detail-product-slide-left').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.detail-product-slide-right',
+  });
   
-  // $('.detail-product-slide-right').slick({
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   asNavFor: '.detail-product-slide-left',
-  //   dots: none,
-  //   // vertical: true,
-  // });
-          
+  $('.detail-product-slide-right').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    asNavFor: '.detail-product-slide-left',
+    dots: false,
+    vertical: true,
+    centerMode: true,
+    focusOnSelect: true
+  });
 
-  
 
 });
 
