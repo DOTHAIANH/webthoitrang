@@ -2,7 +2,6 @@ jQuery = $;
 
 $(document).ready(function() {
     $('.button-add-cart').click(function() {
-        // alert( "Handler for .click() called." );
     });
 
     $( "select" )
@@ -14,5 +13,11 @@ $(document).ready(function() {
     $( "div" ).text( str );
     })
     .trigger( "change" );
+
+    // trang chi tiet san pham chuyen muc
+    $('.box-filter').click(function() {
+        $('.box-filter .box-filter-content').toggle();
+        // $('.box-filter').toggle();
+    });
 });
 

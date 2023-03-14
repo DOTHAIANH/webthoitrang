@@ -1,0 +1,100 @@
+.detail-product-slide{
+    margin-bottom: 80px;
+}
+
+.product-like{
+    padding-bottom: 50px;
+}
+
+.form-order{
+    margin-top: 30px;
+}
+
+.box-bill{
+    border: 2px solid #323F48;;
+}
+
+.form-order .form-group{
+    margin-bottom: 20px;
+}
+
+/* TRANG SAN PHAM CHI TIET CHUYEN MUC */
+.product-sidebar .product-menu{
+    margin-bottom: 20px;
+}
+
+.product-sidebar .product-menu-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.product-sidebar a{
+    color: #333f48;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    padding: 4px 0;
+}
+
+.product-sidebar a:hover{
+     color: #da291c;
+}
+
+.box-filter-sort{
+    display: flex;
+    justify-content:flex-end;
+    padding-bottom: 16px;
+}
+
+.box-filter,.box-sort{
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.box-filter i,.box-sort i{
+    padding-left: 5px;
+}
+
+.box-filter{
+    margin-right: 15px;
+}
+
+.product-sidebar-menu{
+    margin-bottom: 50px;
+    margin-top: 46px;
+}
+
+/* hop filter */
+/* .box-filter{
+    
+} */
+.box-filter .box-filter-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border: 1px solid #f6f6f6;
+    background-color: #fff;
+    z-index: 400;
+    height: 500px;
+    display: none;
+   
+}
+
+.box-sort{
+    color: red;
+}
+
+
+.box-filter-sort{
+    position: relative;
+    
+}

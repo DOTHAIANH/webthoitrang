@@ -1317,7 +1317,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     padding: 40px;
 }
 .button-bill{
-    width: 100%;
+    width: 20%;
     height: 48px;
     background-color: #333f48;
     color: #fff;
@@ -1350,6 +1350,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     padding: 3px 0;
     padding-bottom: 35px;
 }
+
 
 
 
