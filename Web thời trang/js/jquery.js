@@ -15,7 +15,7 @@ $(document).ready(function() {
     .trigger( "change" );
 
     // trang chi tiet san pham chuyen muc
-    $('.box-filter').click(function() {
+    $('.box-filter span').click(function() {
         $('.box-filter .box-filter-content').toggle();
         // $('.box-filter').toggle();
     });
