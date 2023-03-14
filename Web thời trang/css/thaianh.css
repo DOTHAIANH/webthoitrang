@@ -2,3 +2,73 @@ header .home-header-menu .home-header-left .home-header-brand img {
     width: auto;
     height: 40px;
 }
+
+header .home-header-menu .home-header-left .home-header-navbar ul li:hover .header-menu-sub {
+    display: block;
+}
+
+header .home-header-menu .home-header-left .home-header-navbar ul li .header-menu-sub {
+    display: none;
+    transition: .8s;
+}
+
+.home-header-right form input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.home-header-right .home-search-button .button-search i {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+@media (max-width: 1200px) {
+    .home-header-menu .home-header-left .header-main-menu>li>a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    .home-header-navbar {
+        display: none;
+    }
+    /* .home-product-slide {
+        display: none;
+    } */
+    .home-product-item {
+
+    }
+    .home-product-featured {
+        margin-right: 0;
+    }
+    .home-img-featured img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:900px) {
+    .block-signup-news .block-signup-news-title,
+    .block-connect-social-title {
+        font-size: 15px;
+    }
+    .social-icon i {
+        font-size: 35px;
+    }
+    .block-signup-news-input {
+        width: 100%;
+    }
+    .block-signup-news {
+        display: block;
+        padding: 15px;
+    }
+    .block-connect-social {
+        padding: 15px !important;
+    } 
+}
+
+@media (max-width:768px) {
+    .home-product-featured .slick-dots {
+        right: 0;
+    }
+}
