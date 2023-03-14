@@ -65,21 +65,21 @@ $(document).ready(function() {
   });
 
   // chi tiet san pham
-  $('.detail-product-slide-left').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.detail-product-slide-right'
-  });
-  $('.detail-product-slide-right').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.detail-product-slide-left',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-  });
+  // $('.detail-product-slide-left').slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   arrows: false,
+  //   fade: true,
+  //   asNavFor: '.detail-product-slide-right',
+  // });
+  
+  // $('.detail-product-slide-right').slick({
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   asNavFor: '.detail-product-slide-left',
+  //   dots: none,
+  //   // vertical: true,
+  // });
           
 
   
