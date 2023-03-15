@@ -101,5 +101,32 @@
 .box-filter-sort{
     position: relative;
    
-    
+}
+
+/* chuyeen muc chi tiet tin tuc */
+.box-add-cart{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detail-product-size .nav-tabs{
+    justify-content: center;
+}
+
+.home-product-detail .detail-product-size {
+    padding-bottom: 32px;
+    border-bottom: none;
+    margin-bottom: 0 ;
+}
+
+.home-product-detail .button-add-cart{
+    width: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #323F48;
+    height: 45px;
+    margin: 0 auto;
 }
