@@ -556,6 +556,28 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 .product-img:hover .button-add-cart{
     display: block;
     
+} 
+
+.box-add-cart{
+    display: none;
+    position: absolute;
+    left: 2%;
+    right: 2%;
+    color: #333f48;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 12px 22px;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    bottom: 4%;
+    top: 50%;
+}
+
+.product-img:hover .box-add-cart{
+    display: flex;
 }
 
 .box-click-add-cart{
