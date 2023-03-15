@@ -888,7 +888,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 }
 
 .head-sub-li-col2 a i {
-    margin-top: 4px;
+    margin-top: 4px; 
 }
 
 .header-menu-sub .header-sub-cat {
@@ -1340,6 +1340,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     background-color: #f9f9f9;
     padding: 40px;
 }
+
 .button-bill{
     width: 20%;
     height: 48px;
@@ -1374,7 +1375,6 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     padding: 3px 0;
     padding-bottom: 35px;
 }
-
 
 
 
