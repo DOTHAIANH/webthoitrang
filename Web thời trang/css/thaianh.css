@@ -27,6 +27,18 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     color: #333f48;
 }
 
+@media (max-width: 1700px) {
+    .product-size-button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .home-product-detail .button-add-cart {
+        width: 70% !important;
+    }
+}
+
 @media (max-width: 1500px) {
     .news-featured-box-title a {
         font-size: 24px;
@@ -39,10 +51,22 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     }
 }
 
+@media (max-width:1400px) {
+    .home-product-detail .button-add-cart {
+        font-size: 10px  !important;
+    }
+}
+
 @media (max-width: 1300px) {
     .news-featured-box-content {
         padding-left: 30px;
         padding-top: 30px
+    }
+    .product-size-button {
+        padding: 5px;
+    }
+    .home-product-detail .button-add-cart {
+        width: 80% !important;
     }
 }
 
@@ -59,6 +83,18 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     .news-featured-box-date span {
         font-size: 10px;
     }
+    .home-product-detail .detail-product-size {
+        padding-bottom: 15px !important;
+    }
+    .home-product-detail .button-add-cart {
+        width: 90% !important;
+    }
+    .box-add-cart {
+        bottom: 6%;
+        top: 40%;
+        padding: 12px 6px;
+    }
+    
 }
 
 @media (max-width: 991px) {
@@ -84,6 +120,9 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     .news-featured-box-title a {
         font-size: 16px;
     }
+    .detail-news-title span {
+        font-size: 28px;
+    }
 }
 
 @media (max-width:900px) {
@@ -104,6 +143,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     .block-connect-social {
         padding: 15px !important;
     } 
+
 }
 
 @media (max-width:768px) {
@@ -118,6 +158,17 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     }
     .page-category-news .news-content {
         padding-top: 0;
+    }
+    .detail-news-content-text {
+        padding: 0;
+        width: 100%;
+    }
+    .detail-news-title span {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .related-news-title span {
+        font-size: 20px;
     }
 }
 

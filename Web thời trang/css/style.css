@@ -537,29 +537,33 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 }
 
 .button-add-cart{
-    display: none;
-    position: absolute;
-    top: 46.5%;
-    right: 19%;
+    opacity: 1;
+    /* position: absolute;
+    top: 66.5%;
+    right: 25%; */
     color: #333f48;
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
-    padding: 12px 22px;
+    padding: 12px 8px;
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
     border: none;
-    
 }
 
-.product-img:hover .button-add-cart{
-    display: block;
-    
-} 
+/* .product-img:hover .button-add-cart{
+    opacity: 1;
+    transition: .8s;
+} */
+
+.product-img:hover .box-add-cart {
+    opacity: 1;
+    transition: 0.8s;
+}
 
 .box-add-cart{
-    display: none;
+    opacity: 0;
     position: absolute;
     left: 2%;
     right: 2%;
@@ -574,6 +578,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     border: none;
     bottom: 4%;
     top: 50%;
+    transition: .8s;
 }
 
 .product-img:hover .box-add-cart{
@@ -1135,22 +1140,26 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     line-height: 21px;
 }
 
-.detail-news-content-thumbnail img{
-    width: 100%;
+.detail-news-content-thumbnail img {
+    height: auto;
+    width: 70%;
+    margin: auto;
 }
 
-.detail-news-content-thumbnail{
+.detail-news-content-thumbnail {
     text-align: center;
-    margin-bottom: 92px;
+    margin-bottom: 30px;
 }
 
-
-.detail-news-content-text{
+.detail-news-content-text {
     color: #333f48;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
-    padding: 0 76px;
+    padding: 0 85px;
+    margin: auto;
+    width: 70%;
+    text-align: justify;
     margin-bottom: 150px;
 }
 
@@ -1229,7 +1238,8 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     font-weight: 500;
     font-size: 14px;
     color: #333f48;
-    margin-right: 12px;
+    /* margin-right: 12px; */
+    margin: 0 5px;
     margin-bottom: 14px;
     border-radius:0 !important ;
     padding: 14px 20px;
