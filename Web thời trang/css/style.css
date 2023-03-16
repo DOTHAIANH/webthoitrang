@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+.pd-0 {
+    padding: 0 !important;
+}
+
 .justify-btw {
     justify-content: space-between;
 }
@@ -1348,7 +1352,7 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 
 .box-bill{
     background-color: #f9f9f9;
-    padding: 40px;
+    padding: 30px 25px;
 }
 .button-bill{
     width: 100%;

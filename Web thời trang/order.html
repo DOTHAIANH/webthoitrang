@@ -404,7 +404,7 @@
     <section class="box-addcart">
         <div class="container">
             <div class="row">
-                <div class="col-9 table-cart">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12 table-cart pd-0">
                     <table class="table table-order">
                         <thead>
                           <tr>
@@ -416,7 +416,7 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                          <tr class="cart-item">
                               <td scope="row" width="45%">
                                 <div class="cart-item-info">
                                   <div class="cart-item-photo">
@@ -472,7 +472,7 @@
                                 <a title="Xóa" class="action-delete" style="cursor: pointer;"><span>Xóa</span></a>
                               </td>
                           </tr>
-                          <tr>
+                          <tr class="cart-item">
                               <td scope="row" width="45%">
                                 <div class="cart-item-info">
                                   <div class="cart-item-photo">
@@ -528,7 +528,7 @@
                                 <a title="Xóa" class="action-delete" style="cursor: pointer;"><span>Xóa</span></a>
                               </td>
                           </tr>
-                          <tr>
+                          <tr class="cart-item">
                               <td scope="row" width="45%">
                                 <div class="cart-item-info">
                                   <div class="cart-item-photo">
@@ -587,19 +587,19 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="box-bill">
                         <div class="box-bill-title">
                             <span>Đơn hàng</span>
                         </div>
                         <div class="box-bill-price">
                             <span>Giá gốc</span>
-                            <span>169.000đ</span>
+                            <span>169.000 ₫</span>
                         </div>
     
                         <div class="box-bill-sum">
                             <span>Tổng tiền thanh toán</span>
-                            <span>169.000đ</span>
+                            <span>169.000 ₫</span>
                         </div>
                         
                     </div>
@@ -608,22 +608,29 @@
         
             <form class="form-order">
               <div class="row">
-                <div class="col-6 form-group">
+                <div class="col-lg-12">
+                  <div class="title-order-user">
+                    <p>Thông tin đặt hàng</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
                   <label for="fullname">Họ và tên*</label>
                   <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
                 </div>
                 
-                <div class="col-6 form-group">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
                   <label for="phone">Số điện thoại*</label>
                   <input type="tel" class="form-control" id="phone" name="phone" placeholder="Nhập số điện thoại" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                 </div>
 
-                <div class="col-6 form-group">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
                   <label for="email">Email*</label>
                   <input type="email" class="form-control" id="email" name="email" placeholder="Nhập email" required>
                 </div>       
                 
-                <div class="col-6 form-group">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 form-group">
                   <label for="place">Địa chỉ*</label>
                   <input type="text" class="form-control" id="place" name="place" placeholder="Nhập địa chỉ" required>
                 </div> 
