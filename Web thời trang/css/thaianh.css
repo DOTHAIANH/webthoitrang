@@ -27,6 +27,30 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     color: #333f48;
 }
 
+.item-news {
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.news-home {
+    margin-top: 0 !important;
+}
+
+.in-item-news .news-img img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.in-item-news {
+    box-shadow: 0 6px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.related-news {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1700px) {
     .product-size-button {
         padding: 10px;
@@ -183,4 +207,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
         font-size: 14px;
         min-height: 60px;
     } 
+    .product-category-item{
+        padding: 0 15px;
+    }
 }
