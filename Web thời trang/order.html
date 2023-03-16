@@ -405,34 +405,185 @@
         <div class="container">
             <div class="row">
                 <div class="col-9 table-cart">
-                    <table class="table">
+                    <table class="table table-order">
                         <thead>
-                        <tr>
-                            <th scope="col">Sản phẩm</th>
-                            <th scope="col">Giá tiền</th>
-                            <th scope="col">Số lượng</th>
-                            <th scope="col">Tổng tiền</th>
-                            <th scope="col"></th>
-                        </tr>
+                          <tr>
+                              <th scope="col">Sản phẩm</th>
+                              <th scope="col">Giá tiền</th>
+                              <th scope="col">Số lượng</th>
+                              <th scope="col">Tổng tiền</th>
+                              <th scope="col"></th>
+                          </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>0000</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                        </tr>
+                          <tr>
+                              <td scope="row" width="45%">
+                                <div class="cart-item-info">
+                                  <div class="cart-item-photo">
+                                    <a href="/ao-phong-unisex-tre-em-3ts23s003" class="cart-image-container">
+                                      <img src="https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.webp" onerror="this.onerror=null;this.src='https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.jpg'" alt="">
+                                    </a>
+                                  </div> 
+                                  <div class="cart-item-details cart-pd-30">
+                                    <strong class="cart-item-name">
+                                      <a href="/ao-phong-unisex-tre-em-3ts23s003" class="">
+                                        Áo phông unisex trẻ em in Chip &amp; Dale
+                                      </a>
+                                    </strong> 
+                                    <div class="cart-item-options">
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option text">160</span>
+                                        </span>
+                                      </div> 
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option color" style="background-image: url(&quot;https://media.canifa.com/attribute/swatch/images/sb128.png&quot;);"></span>
+                                        </span>
+                                      </div>
+                                    </div> <!----> <!----> <!---->
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                  <div class="cart-pd-30">
+                                    <span class="col price">199.000 ₫</span>  
+                                  </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <div class="cart-item-qty">
+                                    <button class="btn-number btn-number-minus" onclick="stepDown();">
+                                      <span>▼</span>
+                                    </button> 
+                                    <input min="0" name="numberOrder" id="numberOrder" value="1" type="number"class="input-cart-item-qty quantity"> 
+                                    <button class="btn-number btn-number-plus" onclick="stepUp();">
+                                      <span>▲</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <span class="col price">199.000 ₫</span>  
+                                </div>
+                              </td>
+                              <td>
+                                <a title="Xóa" class="action-delete" style="cursor: pointer;"><span>Xóa</span></a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td scope="row" width="45%">
+                                <div class="cart-item-info">
+                                  <div class="cart-item-photo">
+                                    <a href="/ao-phong-unisex-tre-em-3ts23s003" class="cart-image-container">
+                                      <img src="https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.webp" onerror="this.onerror=null;this.src='https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.jpg'" alt="">
+                                    </a>
+                                  </div> 
+                                  <div class="cart-item-details cart-pd-30">
+                                    <strong class="cart-item-name">
+                                      <a href="/ao-phong-unisex-tre-em-3ts23s003" class="">
+                                        Áo phông unisex trẻ em in Chip &amp; Dale
+                                      </a>
+                                    </strong> 
+                                    <div class="cart-item-options">
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option text">160</span>
+                                        </span>
+                                      </div> 
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option color" style="background-image: url(&quot;https://media.canifa.com/attribute/swatch/images/sb128.png&quot;);"></span>
+                                        </span>
+                                      </div>
+                                    </div> <!----> <!----> <!---->
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                  <div class="cart-pd-30">
+                                    <span class="col price">199.000 ₫</span>  
+                                  </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <div class="cart-item-qty">
+                                    <button class="btn-number btn-number-minus" onclick="stepDown();">
+                                      <span>▼</span>
+                                    </button> 
+                                    <input min="0" name="numberOrder" id="numberOrder" value="1" type="number"class="input-cart-item-qty quantity"> 
+                                    <button class="btn-number btn-number-plus" onclick="stepUp();">
+                                      <span>▲</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <span class="col price">199.000 ₫</span>  
+                                </div>
+                              </td>
+                              <td>
+                                <a title="Xóa" class="action-delete" style="cursor: pointer;"><span>Xóa</span></a>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td scope="row" width="45%">
+                                <div class="cart-item-info">
+                                  <div class="cart-item-photo">
+                                    <a href="/ao-phong-unisex-tre-em-3ts23s003" class="cart-image-container">
+                                      <img src="https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.webp" onerror="this.onerror=null;this.src='https://canifa.com/img/210/300/resize/3/t/3ts23s003-sb128-120-1.jpg'" alt="">
+                                    </a>
+                                  </div> 
+                                  <div class="cart-item-details cart-pd-30">
+                                    <strong class="cart-item-name">
+                                      <a href="/ao-phong-unisex-tre-em-3ts23s003" class="">
+                                        Áo phông unisex trẻ em in Chip &amp; Dale
+                                      </a>
+                                    </strong> 
+                                    <div class="cart-item-options">
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option text">160</span>
+                                        </span>
+                                      </div> 
+                                      <div class="cart-item-option">
+                                        <span>
+                                          <span class="swatch-option color" style="background-image: url(&quot;https://media.canifa.com/attribute/swatch/images/sb128.png&quot;);"></span>
+                                        </span>
+                                      </div>
+                                    </div> <!----> <!----> <!---->
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                  <div class="cart-pd-30">
+                                    <span class="col price">199.000 ₫</span>  
+                                  </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <div class="cart-item-qty">
+                                    <button class="btn-number btn-number-minus" onclick="stepDown();">
+                                      <span>▼</span>
+                                    </button> 
+                                    <input min="0" name="numberOrder" id="numberOrder" value="1" type="number"class="input-cart-item-qty quantity"> 
+                                    <button class="btn-number btn-number-plus" onclick="stepUp();">
+                                      <span>▲</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="cart-pd-30">
+                                  <span class="col price">199.000 ₫</span>  
+                                </div>
+                              </td>
+                              <td>
+                                <a title="Xóa" class="action-delete" style="cursor: pointer;"><span>Xóa</span></a>
+                              </td>
+                          </tr>
                         </tbody>
                     </table>
                 </div>
@@ -566,6 +717,27 @@
         </div>
     </section>
 
+  <script>
+      function stepDown(idNumberOrder)
+      {
+          var number = $('#'+idNumberOrder).val();
+          number --;
+  
+          if(number<=0){
+              number = 1;
+          }
+  
+          $('#'+idNumberOrder).val(number);
+      }
+  
+      function stepUp(idNumberOrder)
+      {
+          var number = $('#'+idNumberOrder).val();
+          number ++;
+          
+          $('#'+idNumberOrder).val(number);
+      }
+  </script>
 
 </body>
 
