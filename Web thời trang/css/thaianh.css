@@ -289,7 +289,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
         font-size: 14px;
     }
     .news-featured-box-date span {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -323,7 +323,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
         font-size: 12px;
     }
     .news-featured-box-date span {
-        font-size: 10px;
+        font-size: 15px;
     }
     .home-product-detail .detail-product-size {
         padding-bottom: 15px !important;
@@ -404,6 +404,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     .detail-news-content-text {
         padding: 0;
         width: 100%;
+        margin-bottom:0;
     }
     .detail-news-title span {
         font-size: 24px;
@@ -427,5 +428,9 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     } 
     .product-category-item{
         padding: 0 15px;
+    }
+    /* bổ sung hiếu */
+    .detail-news-information{
+        margin: 0;
     }
 }

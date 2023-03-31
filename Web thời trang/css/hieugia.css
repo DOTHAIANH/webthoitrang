@@ -130,3 +130,26 @@
     height: 45px;
     margin: 0 auto;
 }
+
+@media(max-width:768px){
+    .home-search-button .input-search{
+        width: 216px;
+    }
+}
+
+@media(max-width:425px){
+    .home-search-button .input-search{
+        width: 116px;
+    }  
+
+    .item-news{
+        margin: 0;
+    }
+
+    #category_product .banner-padding img{
+        height: auto;
+    }
+
+}
+
+
