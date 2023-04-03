@@ -142,7 +142,7 @@ header{
 }
 
 .home-header-menu .home-header-left .header-main-menu>li>a{
-    padding: 0 20px;
+    padding: 10px 20px;
     color: #6c757b;
     font-weight: 700;
     font-size: 16px;
@@ -554,6 +554,18 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     text-align: center;
     text-transform: uppercase;
     border: none;
+}
+
+.button-add-cart{
+    width: 60%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #323F48;
+    height: 45px;
+    margin: 0 auto;
 }
 
 .box-add-cart ul {
@@ -1242,15 +1254,15 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 }
 
 .product-size-button{
-    border: 1px solid #d2d1d4 !important;
+    border: 2px solid #d2d1d4 !important;
     font-weight: 500;
-    font-size: 14px;
     color: #333f48;
     /* margin-right: 12px; */
     margin: 0 5px;
     margin-bottom: 14px;
     border-radius:0 !important ;
     padding: 14px 20px;
+
 
 }
 
@@ -1331,6 +1343,10 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 .product-like-title span{
     font-weight: 400;
     font-size: 36px;
+}
+
+.product-like .product-size-button{
+    font-size: 10px;
 }
 
 

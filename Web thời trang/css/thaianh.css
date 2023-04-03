@@ -417,7 +417,7 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
 
 @media (max-width:500px) {
     .container-fluid {
-        padding: 25px;
+        padding: 12px;
     }
     .slide-promotion-item {
         font-size: 12px;
@@ -432,5 +432,18 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     /* bổ sung hiếu */
     .detail-news-information{
         margin: 0;
+    }
+
+    .home-search-button .input-search{
+        width: 83px;
+    }
+
+    .box-add-cart {
+        top: 7%;
+        padding: 12px 6px;
+    }
+
+    .detail-product-size {
+        margin-bottom: 0;
     }
 }
