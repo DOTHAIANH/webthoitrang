@@ -542,15 +542,11 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 
 .button-add-cart{
     opacity: 1;
-    /* position: absolute;
-    top: 66.5%;
-    right: 25%; */
     color: #333f48;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 16px;
     padding: 12px 8px;
-    /* background-color: #fff; */
     text-align: center;
     text-transform: uppercase;
     border: none;
@@ -560,7 +556,6 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
     width: 60%;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
     cursor: pointer;
     text-transform: uppercase;
     background-color: #323F48;
@@ -1347,6 +1342,11 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 
 .product-like .product-size-button{
     font-size: 10px;
+    padding: 14px 18px;
+}
+
+.button-add-cart{
+
 }
 
 
@@ -1404,6 +1404,39 @@ background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0i
 }
 
 
+@media (max-width: 500px){
+    .col-12.home-product-detail .box-add-cart {
+        top: 40% !important;
+        padding: 12px 6px;
+    }
+
+    .product-like .box-add-cart {
+        padding: 12px 19px;
+    }
+
+    /* product detail */
+    .detail-product-slide-right .slick-list {
+        padding-top: 0 !important;
+        height: auto !important;
+    }
+
+    .detail-product-slide-right .slide-right-img{
+        padding: 0 5px;
+    }
+
+    .detail-product-size .nav-tabs{
+        justify-content: center;
+    }
+
+    .detail-product-detail-addcart {
+        margin-top: 17px;
+    }
+
+    .detail-product-detail-addcart .product-button-add-cart{
+        font-size: 13px;
+        padding: 5px;
+    }
+}
 /* ket thuc oreder */
 
 
