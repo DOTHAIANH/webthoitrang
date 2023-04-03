@@ -134,6 +134,48 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function () {
+    $('.box-nav-angle-down-1').click(function () {
+      if($('.menu-mobile-lv-2').css('opacity')=='0'){
+        $(".menu-mobile-lv-2").addClass("mobile-lv2-opacity")
+      }
+      else{
+        $(".menu-mobile-lv-2").removeClass("mobile-lv2-opacity")
+      }
+      console.log($('.box-nav-angle-down-1').css('opacity'));
+      
+    });
+  });
+
+// $(document).ready(function () {
+//   $('.box-nav-angle-down-1').click(function () {
+//     if($('.menu-mobile-lv-2').css('opacity')=='0'){
+//       $(".menu-mobile-lv-2").addClass("mobile-lv2-opacity")
+//     }
+//     else{
+//       $(".menu-mobile-lv-2").removeClass("mobile-lv2-opacity")
+//     }
+//     console.log($('.box-nav-angle-down-1').css('opacity'));
+    
+//   });
+// });
+
+// $(document).ready(function () {
+//   $('.box-nav-angle-down').click(function () {
+//     if($('.menu-mobile-lv-1').css('opacity')=='0'){
+//       $(".menu-mobile-lv-1").addClass("mobile-lv1-opacity")
+     
+//       console.log('aaaaa');
+//     }
+//     else{
+//       $(".menu-mobile-lv-1").removeClass("mobile-lv1-opacity")
+//     }
+//     console.log($('.box-nav-angle-down').css('opacity'));
+//   });
+// });
+
+
+
 
 
 
