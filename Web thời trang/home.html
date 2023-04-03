@@ -376,6 +376,60 @@
             </div>
           </div>
         </div> 
+
+        <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" style="outline:none;">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                  <?php
+                      $menus = $modelOption->getOptionById($themeSettings['Option']['value']['idMenumobile']); 
+                      $menus = $menus['Option']['value']['category'];
+                      //debug($menus);
+                      if(!empty($menus)){
+                          foreach ($menus as $key => $categoryMenu) {  
+                              if(empty($categoryMenu['sub'])){ 
+                                  echo '
+                                      <li>
+                                          <a class="nav-link text-truncate" href="'.@$categoryMenu['url'].'">'.@$categoryMenu['name'].'</a>
+                                      </li>
+                                  ';                                             
+                              }else{
+                                  echo '
+                                  <li class="li-sub-menu-mobile">
+                                      <div class="item-flex">
+                                          <a class="nav-link text-truncate" href="javascript:void(0)">'.@$categoryMenu['name'].'</a>
+                                          <i class="fa-regular fa-angle-down"></i>
+                                      </div>
+                                          <ul class="sub-menu-truncate">';
+                                              foreach ($categoryMenu['sub'] as $key => $value) { 
+                                                  echo '
+                                                      <li><a href="'.@$value['url'].'">'.@$value['name'].'</a></li>
+                                                  ';
+                                              }   
+                                  echo'   </ul>
+                                      </li>                                           
+                                  ';     
+                              }
+                          }
+                      }    
+                  ?>
+              </ul>
+          </div>
+      </nav> -->
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            ...
+          </div>
+        </div>
       </div>
     </section>
     <!-- kết thúc menu -->
