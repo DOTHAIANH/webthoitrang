@@ -446,4 +446,8 @@ header .home-header-menu .home-header-left .home-header-navbar ul li .header-men
     .detail-product-size {
         margin-bottom: 0;
     }
+
+    .product-like{
+        padding: 0 6px;
+    }
 }
