@@ -119,7 +119,15 @@ $(document).ready(function() {
     dots: false,
     vertical: true,
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          vertical: false,
+        }
+      }
+    ]
   });
 
   $(".slide-product-like").slick({
@@ -128,6 +136,7 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed:3000,
     arrows: false,
+    
 
    
   });
